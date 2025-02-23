@@ -146,7 +146,7 @@ lab=D1}
 N -170 -220 -120 -220 {
 lab=MINUS}
 N -520 -220 -470 -220 {
-lab=IN+}
+lab=MINUS}
 N 200 -280 300 -280 {
 lab=OUT}
 N -430 -320 -430 -250 {
@@ -494,7 +494,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 0 -520 0 1 {name=M9
 L=1
-W=26
+W=25
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -508,7 +508,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 180 -520 0 0 {name=M10
 L=1
-W=26
+W=25
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
